@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 .Navigation {
     display: flex;
     flex-direction: row;
@@ -13,6 +22,7 @@
 }
 
 .navidiv1>a {
+    margin-bottom: 100px;
     color: white;
     text-decoration: none;
     font-size: 25px;
@@ -35,13 +45,13 @@
 .navidiv1>h1 {
     color: white;
     font-weight: 900;
-    width: 60%;
+    width: 30%;
     font-size: 50px;
 }
 
 .navidiv1>p {
     color: white;
-    width: 60%;
+    width: 80%;
     font-family: 900;
     font-size: 18px;
 }
@@ -54,14 +64,8 @@
 
 .section2 {
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-color: grey;
-}
-
-.section3 {
-    width: 100%;
-    height: 400px;
-    background-color: white;
 }
 
 .section4 {
@@ -70,6 +74,8 @@
     background-color: #020422;
     text-align: center;
     justify-content: center;
+    color: white;
+    font-weight: 900;
 }
 
 .navidiv2 {
@@ -81,7 +87,7 @@
 }
 
 .navidiv2 .linkheader {
-    margin-left: 180px;
+    margin-left: 50px;
     flex-direction: row;
     gap: 20px;
 }
@@ -96,7 +102,7 @@
 
 .navidiv2>.image {
     margin-top: 100px;
-    margin-left: 70px;
+    margin-left: 0px;
     height: 100px;
     padding-top: 50px;
     background-color: grey;
@@ -114,17 +120,104 @@
 .randominformation {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 40px;
+    justify-content: center;
+    /* align-items: center;
+    text-align: center; */
 }
 
 .randomdiv {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
-    border: 2px solid blue;
-    border-radius: 5px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.randomdiv1 .subtext {
+    width: 50%;
+    color: grey;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.randomdiv1 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    /* justify-content: center; */
+}
+
+.section1>center>h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.section2>p {
+    width: 70%;
+    padding-top: 70px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+}
+
+.section2>h1 {
+    padding-left: 1100px;
+}
+
+.section3 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.section3>.signupdiv {
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+}
+
+.signupdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.section3>.signupdiv>.lorem {
+    margin-top: 25px;
+}
+
+.section3>.signupdiv>.lorem1>button {
+    margin-top: 35px;
+    margin-left: 100px;
+    border-radius: 3px;
     -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: 2px solid white;
+    color: white;
+    background-color: blue;
+    font-weight: 800;
+    padding: 10px;
 }
