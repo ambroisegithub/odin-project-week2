@@ -1,0 +1,130 @@
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    background-color: #020422;
+}
+
+.navidiv1 {
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 500px;
+    background-color: #020422;
+}
+
+.navidiv1>a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navidiv1>button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.navidiv1>h1 {
+    color: white;
+    font-weight: 900;
+    width: 60%;
+    font-size: 50px;
+}
+
+.navidiv1>p {
+    color: white;
+    width: 60%;
+    font-family: 900;
+    font-size: 18px;
+}
+
+.section1 {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.section2 {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.section3 {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.section4 {
+    padding-top: 20px;
+    height: 60px;
+    background-color: #020422;
+    text-align: center;
+    justify-content: center;
+}
+
+.navidiv2 {
+    width: 40%;
+    /* padding-left: 200px; */
+    padding-top: 20px;
+    height: 500px;
+    background-color: #020422;
+}
+
+.navidiv2 .linkheader {
+    margin-left: 180px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.linkheader a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 16px;
+    font-weight: 800;
+}
+
+.navidiv2>.image {
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 100px;
+    padding-top: 50px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.image>p {
+    color: white;
+    font-size: 20px;
+}
+
+.randominformation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.randomdiv {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
